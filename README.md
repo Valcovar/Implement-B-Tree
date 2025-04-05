@@ -7,7 +7,7 @@ Supports two modes: batch insert (Approach 1) and interactive menu (Approach 2).
 Uses dynamic memory allocation properly.
 
 ⚠️ Issues and Suggestions
-1. Global variable t should not be global
+ Global variable t should not be global
 You’re using int t; globally. It would be better to:
 Pass t as a parameter to relevant functions,
 Or include it in the BTree struct.
